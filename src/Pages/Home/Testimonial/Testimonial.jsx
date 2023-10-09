@@ -31,9 +31,9 @@ const Testimonial = () => {
             reviews.map(rev => <SwiperSlide
             key={rev._id}
             >
-                <div className="m-24">
+                <div className="m-36">
                     <p>{rev.details}</p>
-                    <h3 className="text-2xl text-orange-400">{rev.name}</h3>
+                    <h3 className="text-2xl text-orange-400 text-center">{rev.name}</h3>
                 </div>
             </SwiperSlide>)
           }
