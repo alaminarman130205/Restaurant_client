@@ -12,6 +12,9 @@ const NavBar = () => {
       <li>
         <Link to="/order">Order Now</Link>
       </li>
+      <li>
+        <Link to="/login">Login</Link>
+      </li>
     </>
   );
 
@@ -25,6 +28,9 @@ const NavBar = () => {
       </li>
       <li>
         <Link to="/order">Order Now</Link>
+      </li>
+      <li>
+        <Link to="/login">Login</Link>
       </li>
     </>
   );
